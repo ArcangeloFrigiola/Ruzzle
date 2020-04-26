@@ -14,8 +14,15 @@ import javafx.beans.property.StringProperty;
  *
  */
 public class Board {
-	private List<Pos> positions;
-	private Map<Pos, StringProperty> cells;
+	private List<Pos> positions; //lista r*c
+	private Map<Pos, StringProperty> cells; //il valore non è una semplice stringa, bensì una stringProperty
+	/**
+	 * Usando una stringProperty, si può fare in modo che il bottone sia
+	 * collegato direttamente al valore nella stringProperty
+	 * 
+	 * Questo singnifica che ogni volta che un carattere in una stringProperty 
+	 * cambia, il cambiamento si riflette in modo automatico nell'intefaccia grafica
+	 */
 
 	private int size;
 

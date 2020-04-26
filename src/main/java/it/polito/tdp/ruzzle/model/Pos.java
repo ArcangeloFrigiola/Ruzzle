@@ -5,8 +5,8 @@ package it.polito.tdp.ruzzle.model;
  * 
  */
 public class Pos {
-	private int row;
-	private int col;
+	private int row; //indice riga
+	private int col; //indice colonna
 
 	public Pos(int row, int col) {
 		super();
